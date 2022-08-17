@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      home: MyHomePage(title: 'Flutter Demo'),
+      home: FirstScreen(),
+      // home: MyHomePage(title: 'Flutter Demo'),
     );
   }
 }

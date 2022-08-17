@@ -44,9 +44,28 @@ class MultiPageRow extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Row(
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
+            Row(children: [
+              Image.network(
+                'https://image.newdaily.co.kr/site/data/img/2022/02/24/2022022400156_0.jpg',
+                width: 10,
+                height: 10,
+              ),
+              Image.network(
+                'https://image.newdaily.co.kr/site/data/img/2022/02/24/2022022400156_0.jpg',
+                width: 10,
+                height: 10,
+              )
+            ]),
+            Row(children: [
+              Image.network(
+                'https://image.newdaily.co.kr/site/data/img/2022/02/24/2022022400156_0.jpg',
+                width: 10,
+                height: 10,
+              )
+            ]),
             Image.network(
               'https://image.newdaily.co.kr/site/data/img/2022/02/24/2022022400156_0.jpg',
               width: 100,
